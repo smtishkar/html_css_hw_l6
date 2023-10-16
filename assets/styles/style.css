@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'gilroy', sans-serif;
+    src: url(../fonts/gilroy-bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'gilroy', sans-serif;
+    src: url(../fonts/gilroy-medium.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'gilroy', sans-serif;
+    src: url(../fonts/gilroy-regular.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'gilroy', sans-serif;
+    src: url(../fonts/gilroy-semibold.ttf);
+    font-weight: 600;
+}
+
+body {
+    margin: 0;
+    background-color: #FFF;
+}
+
+html {
+    font-family: 'gilroy', sans-serif;
+}
+
+.header {
+    width: 1170px;
+    height: 40px;
+    display: flex;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 89px;
+}
+
+.menu {
+    width: 556px;
+    height: 17px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 500px;
+}
+
+.header-home {
+    color: #F25822;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header-item {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.intro {
+    width: 1172px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 259px;
+}
+
+.intro-title {
+    width: 522px;
+    color: #000;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 17px;
+}
+
+.intro-text {
+    width: 466px;
+    color: #888;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 37px;
+}
+
+.start-but {
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 72px;
+
+}
+
+.watch-but {
+    color: #AAA;
+    ;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.brand-logo {
+    width: 1200px;
+    height: 50px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 48px;
+}
